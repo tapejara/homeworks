@@ -1,0 +1,200 @@
+body {
+    background-color: blanchedalmond; 
+    color: rgb(100,0,0);
+}
+
+#logo {
+    width: 6%; 
+    float: left; 
+    margin-left: 6%;
+}
+
+#nav {
+    background-color: rgb(100,0,0); 
+    color:blanchedalmond; width: 80%; 
+    margin-left: 2%; 
+    margin-right: 6%; 
+    margin: 1.25%; 
+    float: left;
+}
+
+#nthead {
+    height: 4rem;
+}
+
+.nav {
+    width: 20%;
+}
+
+.navtext {
+    color: blanchedalmond; 
+    text-decoration: none;
+}
+
+#head1 {
+    background-color: 
+    rgb(255,255,255); 
+    color: rgb(100,0,0); 
+    width: 100%;
+}
+
+#htext1 {
+    font-size: 55px; 
+    margin-left: 10%; 
+    padding-top: 3%; 
+    font-weight: bold;
+}
+
+#htext2 {
+    font-size: 30px; 
+    margin-left: 10%;
+}
+
+#htext3 {
+    margin-left: 10%; 
+    width: 50%;   
+}
+
+#htext4 {
+    margin-left: 10%; 
+    width: 50%;
+    float: left;
+}
+
+#textbox1 {
+    margin-left: 10%; 
+    margin-top: 10%; 
+    float: left; 
+    width: 37.5%;
+}
+
+.text1 {
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.text2 {
+    font-size: 15px;
+}
+
+#head2 {
+    font-size: 35px; 
+    font-weight: bold; 
+    margin-left: 2.5%; 
+    margin-top: 2%;
+}
+
+#drink {
+    font-size: 25px; 
+    font-weight: bold; 
+    margin-left: 2.5%;
+}
+
+.menutable {
+    background-color:rgb(27,60,53); 
+    color: antiquewhite; 
+    border: 5px solid rgb(100,0,0); 
+    width: 45%; 
+    float: left;
+}
+
+.menuhead {
+    color: floralwhite; 
+    font-size:25px ;
+    
+}
+
+.menucell {
+    width: 20%;
+}
+
+#list {
+    clear: both; 
+    font-size: 13px; 
+    padding-top: 0.5%; 
+    padding-bottom: 1%;
+}
+
+#header3 {
+    text-align: center; 
+    margin-top: 1%; 
+    margin-bottom: 1.5%;
+}
+
+#store1 {
+    font-size: 35px; 
+    font-weight: bold; 
+    margin-left: 0.5%;
+}
+
+#store2 {
+    margin-left: 0.5%;
+}
+
+#section3 {
+    height: 80vh;
+}
+
+.storelist {
+    width: 50%; 
+    margin-left: 25%;
+}
+
+.stoc1 {
+}
+
+.storeimg {
+    border-radius: 15px;
+    float: left;
+}
+
+.stot1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 13%;
+}
+
+.stot2 {
+    font-size: 17px;
+    margin-left: 2.8%;
+}
+
+.stot3 {
+    color: rgb(144,144,144);
+    font-size: 17px;
+    margin-left: 2.8%;
+}
+
+.line {
+    border: 2px solid rgb(100,0,0);
+}
+
+.list {
+    border: 1px solid rgb(100,0,0);
+}
+
+.blank1 {
+    width: 2.5%; 
+    float: left;
+}
+
+.blank2 {
+    width: 5%; 
+    float: left;
+}
+
+.ft {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 7%;
+}
+
+footer {
+    margin-left: 40%; 
+    margin-top: 1%;
+}
+
+.little {
+    font-size: 13px; 
+    color: rgb(144,144,144);
+}
