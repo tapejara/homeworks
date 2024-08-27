@@ -1,0 +1,40 @@
+#logo {
+    width: 6%; 
+    float: left; 
+    margin-left: 3%;
+    margin-right: 2%; 
+} 
+
+.nav {
+    background-color: rgb(100,0,0); 
+    color:blanchedalmond; 
+    width: 80%; 
+    height: 3.25rem;
+    margin-left: 5%; 
+    margin: 1.25%; 
+    float: left;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.nav a {
+    text-decoration: none;
+    color:blanchedalmond;
+}
+
+.nav div {
+    font-weight: bold;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-left: 13.5%;
+    margin-top: 1%;
+    float: left;
+}
+
+.nav div:hover {
+    border-bottom: solid 3px;
+}
+
+.route {
+    border-bottom: solid 3px;
+}

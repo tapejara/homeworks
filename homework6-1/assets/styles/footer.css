@@ -1,0 +1,16 @@
+.ft {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+footer {
+    margin-top: 1%;
+    text-align: center;
+}
+
+.little {
+    font-size: 13px; 
+    color: rgb(144,144,144);
+}
