@@ -1,0 +1,39 @@
+.fild {
+    z-index: 1;
+    height: 850px;
+    background-image: url(../images/duelfield.PNG);
+    background-size: 1650px 750px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transform: perspective(200px)  rotateX(6deg);
+}
+
+.card {
+    height: 215px;
+    z-index: 3;
+    position: absolute;
+    left: 45.7%;
+    bottom: 4%;
+    box-shadow: 0px 0px 15px none;
+}
+
+.card:active {
+    transform: perspective(200px)  rotateX(6deg) translate(0%, -254% );
+    transition-property: all;
+    transition-duration: 3s;
+    animation-delay: 3.1s;
+    animation-name: card-effect1;
+    animation-duration: 0.5s;
+}
+
+@keyframes card-effect1 {
+    0%{box-shadow: 0px 0px 5px 5px rgb(229, 200, 80);}
+    30%{box-shadow: 0px 0px 12px 12px rgb(229, 200, 80);}
+    80%{box-shadow: 0px 0px 20px 20px orange;}
+    100%{box-shadow: 0px 0px 5px 5px rgb(229, 200, 80);} 
+}
+
+
+.ecclesia {
+    height: 215px;
+}
