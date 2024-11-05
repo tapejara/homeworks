@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="script1.js"></script>
+    
+</head>
+<body>
+    
+    <h1>숫자 맞추기 게임</h1>
+
+    <span>1부터 100까지 주어지는 무작위의 숫자 하나를 찾아주세요. 총 10번의 기회가 주어지며, 당신이 말한 숫자보다 그 숫자가 큰지 혹은 작은지 알려드리겠습니다.</span>
+
+    <div class="form">
+        <label for="guessField">정답 입력란:</label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="입력" class="guessSubmit">
+    </div>
+
+    <div>
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+</body>
+</html>
