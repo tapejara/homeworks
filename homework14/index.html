@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <script src="script1.js"></script>
+
+</head>
+<body>
+
+    <div class="headline">
+        <h2 class="title">숫자야구</h2>
+        <span class="subtitle">3자리 수를 9회안에 맞춰라!</span>
+    </div>
+    <br>
+    <div class="screen">
+        <table class="numBoard">
+            <tbody class="screenTable">
+                <tr>
+                    <td class="boardCell">No.1</td>
+                    <td class="boardCell num1"></td>
+                    <td class="boardCell num4"></td>
+                    <td class="boardCell num7"></td>
+                    <td class="boardCell num10"></td>
+                    <td class="boardCell num13"></td>
+                    <td class="boardCell num16"></td>
+                    <td class="boardCell num19"></td>
+                    <td class="boardCell num22"></td>
+                    <td class="boardCell num25"></td>
+                </tr>
+                <tr>
+                    <td class="boardCell">No.2</td>
+                    <td class="boardCell num2"></td>
+                    <td class="boardCell num5"></td>
+                    <td class="boardCell num8"></td>
+                    <td class="boardCell num11"></td>
+                    <td class="boardCell num14"></td>
+                    <td class="boardCell num17"></td>
+                    <td class="boardCell num20"></td>
+                    <td class="boardCell num23"></td>
+                    <td class="boardCell num26"></td>
+                </tr>
+                <tr>
+                    <td class="boardCell">No.3</td>
+                    <td class="boardCell num3"></td>
+                    <td class="boardCell num6"></td>
+                    <td class="boardCell num9"></td>
+                    <td class="boardCell num12"></td>
+                    <td class="boardCell num15"></td>
+                    <td class="boardCell num18"></td>
+                    <td class="boardCell num21"></td>
+                    <td class="boardCell num24"></td>
+                    <td class="boardCell num27"></td>
+                </tr>
+                <tr>
+                    <td class="boardCell strike">S</td>
+                    <td class="boardCell s1"></td>
+                    <td class="boardCell s2"></td>
+                    <td class="boardCell s3"></td>
+                    <td class="boardCell s4"></td>
+                    <td class="boardCell s5"></td>
+                    <td class="boardCell s6"></td>
+                    <td class="boardCell s7"></td>
+                    <td class="boardCell s8"></td>
+                    <td class="boardCell s9"></td>
+                </tr>
+                <tr>
+                    <td class="boardCell ball">B</td>
+                    <td class="boardCell b1"></td>
+                    <td class="boardCell b2"></td>
+                    <td class="boardCell b3"></td>
+                    <td class="boardCell b4"></td>
+                    <td class="boardCell b5"></td>
+                    <td class="boardCell b6"></td>
+                    <td class="boardCell b7"></td>
+                    <td class="boardCell b8"></td>
+                    <td class="boardCell b9"></td>
+                </tr>
+                <tr>
+                    <td class="boardCell out">O</td>
+                    <td class="boardCell o1"></td>
+                    <td class="boardCell o2"></td>
+                    <td class="boardCell o3"></td>
+                    <td class="boardCell o4"></td>
+                    <td class="boardCell o5"></td>
+                    <td class="boardCell o6"></td>
+                    <td class="boardCell o7"></td>
+                    <td class="boardCell o8"></td>
+                    <td class="boardCell o9"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="input">
+            <input type="number" min="000" max="999"  required id="guessField" class="guessField">
+            <input type="submit" value="투구" class="guessSubmit">
+        </div>
+
+        <div class="blank">
+            <span class="lastResult"></span>
+            <br>
+            <span class="answer">스트라이크, 볼은 각각 횟수에 따라 "O" 개수로 표기하며, 아웃은 "X"로 표기한다. </span>
+        </div>
+
+    </div>
+    
+</body>
+</html>

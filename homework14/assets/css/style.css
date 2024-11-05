@@ -1,0 +1,54 @@
+body {
+    background-image: url(../images/baseball.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: center;
+    background-position: top;
+}
+
+.headline {
+    text-align: center;
+}
+
+.screen {
+    background-color: black;
+    width: 768px;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
+
+}
+
+.numBoard {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boardCell {
+    width: 10%;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.strike {
+    color: aqua;
+}
+
+.ball {
+    color: yellow;
+}
+
+.out {
+    color: red;
+}
+
+.input {
+    text-align: center;
+}
+
+.blank {
+    color: white;
+    height: 46px;
+}
